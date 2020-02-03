@@ -2,6 +2,7 @@
     "name": "heujdieke",
     "version": "1.0.0",
     "description": "Dieke bot",
+    "author": "Lexi Sother",
     "main": "index.js",
     "scripts": {
         "start": "npm i && node .",
@@ -9,7 +10,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/theikegeraads/heujdieke.git"
+        "url": "git+https://github.com/sparkiesoth/HeujDieke-DiscordBot.git"
     },
     "keywords": [
         "discord-js",
@@ -18,9 +19,9 @@
     "author": "Theike",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/theikegeraads/heujdieke/issues"
+        "url": "https://github.com/sparkiesoth/HeujDieke-DiscordBot/issues"
     },
-    "homepage": "https://github.com/theikegeraads/heujdieke#readme",
+    "homepage": "https://github.com/sparkiesoth/HeujDieke-DiscordBot#readme",
     "dependencies": {
         "better-sqlite3": "^5.4.3",
         "chalk": "^3.0.0",

@@ -1,3 +1,7 @@
+# Personal ignored files
+data/
+config.js
+
 # Logs
 logs
 *.log

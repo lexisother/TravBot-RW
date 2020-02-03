@@ -1,0 +1,36 @@
+{
+    "name": "heujdieke",
+    "version": "1.0.0",
+    "description": "Dieke bot",
+    "main": "index.js",
+    "scripts": {
+        "start": "npm i && node .",
+        "test": "jshint ./*"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/theikegeraads/heujdieke.git"
+    },
+    "keywords": [
+        "discord-js",
+        "bot"
+    ],
+    "author": "Theike",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/theikegeraads/heujdieke/issues"
+    },
+    "homepage": "https://github.com/theikegeraads/heujdieke#readme",
+    "dependencies": {
+        "better-sqlite3": "^5.4.3",
+        "chalk": "^3.0.0",
+        "discord.js": "^11.5.1",
+        "enmap": "^5.2.4",
+        "moment": "^2.24.0",
+        "moment-duration-format": "^2.3.2",
+        "util": "^0.12.1"
+    },
+    "devDependencies": {
+        "jshint": "^2.11.0"
+    }
+}

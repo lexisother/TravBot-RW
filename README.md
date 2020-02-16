@@ -1,5 +1,5 @@
-# heujdieke
-discord bot that will destroy your dog
+# TravBot
+My rewrite of Keanu's Discord bot "TravBot"
 
 ## Installing
 1. `npm i` or `npm install`

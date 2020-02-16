@@ -21,7 +21,7 @@ module.exports = (client) => {
     "modLogChannel": "mod-log",
     "modRole": "Moderator",
     "adminRole": "Administrator",
-    "systemNotice": "true",
+    "systemNotice": "false",
     "welcomeChannel": "welcome",
     "welcomeMessage": "Say hello to {{user}}, everyone! We all need a warm welcome sometimes :D",
     "welcomeEnabled": "false"

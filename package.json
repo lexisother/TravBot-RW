@@ -1,37 +1,49 @@
 {
-    "name": "heujdieke",
+    "name": "TravBot-RW",
     "version": "1.0.0",
-    "description": "Dieke bot",
+    "description": "Rewrite of TravBot",
     "author": "Lexi Sother",
     "main": "index.js",
     "scripts": {
-        "start": "npm i && node .",
-        "test": "jshint ./*"
-    },
+        "lint": "jshint index.js",
+        "start": "node index.js",
+        "test_all": "jshint ./commands/*.js",
+        "format": "npm run json-beautify && npm run js-beautify",
+        "js-beautify": "js-beautify -js -q -r -f ./**.js",
+        "json-beautify": "js-beautify -js -r -f ./**.json"
+      },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/sparkiesoth/HeujDieke-DiscordBot.git"
+        "url": "git+https://github.com/sparkiesoth/TravBot-RW.git"
     },
     "keywords": [
         "discord-js",
         "bot"
     ],
-    "author": "Theike",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/sparkiesoth/HeujDieke-DiscordBot/issues"
+        "url": "https://github.com/sparkiesoth/TravBot-RW/issues"
     },
-    "homepage": "https://github.com/sparkiesoth/HeujDieke-DiscordBot#readme",
+    "homepage": "https://github.com/sparkiesoth/TravBot-RW#readme",
     "dependencies": {
-        "better-sqlite3": "^5.4.3",
-        "chalk": "^3.0.0",
-        "discord.js": "^11.5.1",
-        "enmap": "^5.2.4",
+        "discord.js": "11.5.1",
+        "discord.js-commando": "^0.10.0",
+        "eslint": "^6.6.0",
+        "figlet": "^1.2.4",
+        "mathjs": "6.6.0",
         "moment": "^2.24.0",
-        "moment-duration-format": "^2.3.2",
-        "util": "^0.12.1"
-    },
-    "devDependencies": {
-        "jshint": "^2.11.0"
-    }
+        "nekos.life": "^2.0.4",
+        "node-cron": "^2.0.3",
+        "node-fetch": "^2.6.0",
+        "node-opus": "^0.3.3",
+        "reaction-core": "^2.3.0",
+        "weather-js": "^2.0.0",
+        "yt-search": "^1.0.1",
+        "ytdl-core": "1.0.7",
+        "js-beautify": "^1.10.2"
+      },
+      "devDependencies": {
+        "jshint": "^2.10.3",
+        "@babel/core": "^7.7.2"
+      }
 }

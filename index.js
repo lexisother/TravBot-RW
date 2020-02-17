@@ -22,7 +22,7 @@ client.settings = new Enmap({
 });
 
 
-const init = async() => {
+const init = async () => {
 
     const cmdFiles = await readdir("./commands/");
     client.logger.log(`Loading a total of ${cmdFiles.length} commands.`);

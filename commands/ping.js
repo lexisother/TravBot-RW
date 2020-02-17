@@ -12,7 +12,7 @@ exports.conf = {
 
 exports.help = {
   name: "ping",
-  category: "Miscelaneous",
+  category: "Miscellaneous",
   description: "Displays ping in ms.",
   usage: "ping"
 };

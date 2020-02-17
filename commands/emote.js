@@ -14,7 +14,7 @@ exports.conf = {
 
 exports.help = {
     name: "emote",
-    category: "fun",
+    category: "Fun",
     description: "Sends an emote.",
     usage: "emote [emote name]"
 };

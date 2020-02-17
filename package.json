@@ -11,7 +11,7 @@
         "format": "npm run json-beautify && npm run js-beautify",
         "js-beautify": "js-beautify -js -q -r -f ./**.js",
         "json-beautify": "js-beautify -js -r -f ./**.json"
-      },
+    },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/sparkiesoth/TravBot-RW.git"
@@ -26,10 +26,14 @@
     },
     "homepage": "https://github.com/sparkiesoth/TravBot-RW#readme",
     "dependencies": {
+        "better-sqlite3": "^5.4.3",
+        "chalk": "^3.0.0",
         "discord.js": "11.5.1",
         "discord.js-commando": "^0.10.0",
+        "enmap": "^5.2.4",
         "eslint": "^6.6.0",
         "figlet": "^1.2.4",
+        "js-beautify": "^1.10.2",
         "mathjs": "6.6.0",
         "moment": "^2.24.0",
         "nekos.life": "^2.0.4",
@@ -39,11 +43,10 @@
         "reaction-core": "^2.3.0",
         "weather-js": "^2.0.0",
         "yt-search": "^1.0.1",
-        "ytdl-core": "1.0.7",
-        "js-beautify": "^1.10.2"
-      },
-      "devDependencies": {
+        "ytdl-core": "1.0.7"
+    },
+    "devDependencies": {
         "jshint": "^2.10.3",
         "@babel/core": "^7.7.2"
-      }
+    }
 }

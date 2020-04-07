@@ -34,7 +34,7 @@
         "eslint": "^6.6.0",
         "figlet": "^1.2.4",
         "js-beautify": "^1.10.2",
-        "mathjs": "6.6.0",
+        "mathjs": "6.6.1",
         "moment": "^2.24.0",
         "nekos.life": "^2.0.4",
         "node-cron": "^2.0.3",

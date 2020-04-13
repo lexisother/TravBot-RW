@@ -43,7 +43,7 @@
         "reaction-core": "^2.3.0",
         "weather-js": "^2.0.0",
         "yt-search": "^1.0.1",
-        "ytdl-core": "2.0.0"
+        "ytdl-core": "2.0.1"
     },
     "devDependencies": {
         "jshint": "^2.10.3",
